@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+@-webkit-keyframes rodaroda1 {
+		0% {
+-webkit-transform:rotate(-30deg);}
+		50% {
+-webkit-transform:rotate(30deg);}
+		100% {
+-webkit-transform:rotate(-30deg);}}
+
+.giragira1 {
+	-webkit-animation: rodaroda1 1s linear alternate; 	-moz-animation: rodaroda1 1.5s linear infinite;
+	-o-animation: rodaroda1 1.5s linear infinite; 	animation: rodaroda1 1.5s linear infinite;
+}
+
+
+@-webkit-keyframes rodaroda2 {
+		0% {
+-webkit-transform:rotate(30deg);}
+		50% {
+-webkit-transform:rotate(-30deg);}
+		100% {
+-webkit-transform:rotate(30deg);}}
+
+.giragira2 {
+	-webkit-animation: rodaroda2 1s linear alternate; 	-moz-animation: rodaroda2 1.5s linear infinite;
+	-o-animation: rodaroda2 1.5s linear infinite; 	animation: rodaroda2 1.5s linear infinite;
+}
+
+
+
+.giragira1:hover {-webkit-animation-play-state:paused;}
+
+.giragira2:hover {-webkit-animation-play-state:paused;}
+
