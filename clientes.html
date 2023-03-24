@@ -35,11 +35,13 @@
 
     <form action="https://formsubmit.co/eusouanderson@outlook.com" method="POST">
       <div id="container1" style="text-align: center; ">
-        <p>Nome: <input type="nome" id="nome-cliente" required></p>
+        <p>Nome: <input type="name" name="name" id="nome-cliente" required></p>
         <p>Email:<input type="email" name="email" required></p>
         <p>Mensagem:</p>
-        <p><textarea type="txt"  id="msg-cliente" style=width:300px ></textarea></p>
+        <p><textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Your message"></textarea></p>
         <button id="action-btn1" onclick="Enviar()">Postar</button>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="Mensagem enviada!  Obrigado!">
       </div>
     </form>    
 
