@@ -10,29 +10,36 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animacao.css">
-    <script src="js/cliente.js" ></script>
+    <script src="js/cliente.js" defer></script>
 </head>
 <body>
     <!-- START #fh5co-header -->
     <header id="fh5co-header-section" role="header" class="" >
       <div class="container">
       <!-- START #fh5co-logo -->
-      <h1><a href="index.html"><img src="images/logo.webp" alt="Empreiteira Beira Rio - Alvenaria, Hidráulica, Elétrica, Pintura,"  title="Empreiteira Beira Rio - Alvenaria, Hidráulica, Elétrica, Pintura em são paulo"></a></h1>
+      <h1><a href="index.html"><img src="images/logo.webp" alt="Empreiteira Beira Rio - Alvenaria, Hidráulica, Elétrica, Pintura,"  title="Empreiteira Beira Rio - Alvenaria, Hidráulica, Elétrica, Pintura em são paulo" style="height: 150px;"></a></h1>
       <!-- START #fh5co-menu-wrap -->
       </div>
     
 
     <div class="container" style="background: #231d1e!important; color:#fff">
       <section id="fh5co-feature" style="padding-top: 30px; background: #231d1e!important; color:#fff" >
-    <section class="cliente" aligne="center" style="text-align:center;">
+    
+    <div id="cliente" style="text-align:center;">
       <h1>Clientes</h1>
-      
       <p>Login: <input type="text" name="name" value='' id="name" style="color: #231d1e;"></p>
       <p>Senha: <input type="password" name="password" value="" id="password" style="color: #231d1e;"></p>
       <button type="button" name="enviar" onclick="login()" style="color: #231d1e;">Entrar</button><br>
       <h3 id="res">Envie nos seu <span>feedback.</span> </h3>
-    </section>
+    </div>
+
+
+    <div id="container1" style="text-align: center; ">
+      <p>Nome: <input type="nome" ></p>
+      <p>Mensagem:</p>
+      <p><textarea type="nome"  style=width:300px ></textarea></p>
+      <button id="action-btn1" onclick="Sumir()">Postar</button>
+    </div>
       
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
