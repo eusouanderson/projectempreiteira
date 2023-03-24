@@ -20,6 +20,12 @@ function login(){
         res.innerHTML = "Login invalido..!"
     }
 };
+function Enviar(){
+    let nomeCliente = window.document.getElementById('nome-cliente')
+    let msgCliente = window.document.getElementById('msg-cliente')
+    console.log(nomeCliente.value)
+    console.log(msgCliente.value)
+}
 
 
 

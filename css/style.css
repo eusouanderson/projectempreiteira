@@ -42,9 +42,27 @@ body {
     line-height: 1.5;
   }
 }
-#container{
-  background-color: #666d6b;
+/* FEEDBACK */
+
+.client-1, .client-2,.client-3,.client-4 {
+  text-align: center;
+  background: #1b1a1a;
+  height: 50px;
+  width: 50px;
+  text-decoration: solid;
+  animation: rodaroda4 1s infinite;
 }
+
+.nameFeed{
+  text-align: right;
+  color: #ffffff;
+  
+}
+.msgFeed{
+  text-align: left;
+  color: #ff7c00;
+}
+
 ::-webkit-selection {
   color: #ffffff;
   background: #ff7c00;
