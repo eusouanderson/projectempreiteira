@@ -10,7 +10,7 @@ function login(){
     if (login.value.length == 0 && password.value.length == 0){
         window.alert('[ERRO] Digite o login fornecido !');
         res.innerHTML = "Erro ao logar!"
-    }if (login.value == 'admin' && password.value == '123'){
+    }if (login.value == 'cliente' && password.value == '123'){
         window.alert('Logado com sucesso');
         res.innerHTML = "Logado..!"
         container.style.display ="block"
