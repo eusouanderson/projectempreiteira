@@ -1,6 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
-@-webkit-keyframes rodaroda4 {
+
+
+@keyframes carrocel {
+	from {
+	  background-color: #252221;
+	  left: 1100px;
+	  top: 0px;
+	  position: relative;
+	}
+	to {
+	  background-color: #33475b;
+	  left:  0px;
+	  position: relative;
+	}
+	paused{}
+  }
+@-webkit-keyframes rodaroda5 {
 	0% {
   -webkit-transform:rotate(-5deg);}
 	50% {
@@ -34,6 +50,16 @@
 .giragira2 {
 	-webkit-animation: rodaroda2 1s linear alternate; 	-moz-animation: rodaroda2 1.5s linear infinite;
 	-o-animation: rodaroda2 1.5s linear infinite; 	animation: rodaroda2 1.5s linear infinite;
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	margin: auto;
+}
+.rodaroda4mobile{
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 

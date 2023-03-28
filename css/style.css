@@ -44,20 +44,38 @@ body {
 }
 /* FEEDBACK */
 
-.client-1, .client-2,.client-3,.client-4 {
+.client-1,.client-2,.client-3,.client-4 {
   text-align: center;
   background: #1b1a1a;
   height: 50px;
-  width: 50px;
+  width: auto;
   text-decoration: solid;
-  animation: rodaroda4 1s infinite;
+  letter-spacing: 1px;
+}
+.client-1{
+  animation: carrocel 11s infinite 1s;
+}
+.client-2{
+  animation: carrocel 11s infinite 2s;
+}
+.client-3{
+  animation: carrocel 11s infinite 4s;
+}
+.client-4{
+  animation: carrocel 11s infinite 6s;
 }
 
 .nameFeed{
   text-align: right;
   color: #ffffff;
-  
+
 }
+
+.nameFeed:hover{  
+	text-align: center;
+	color: #ad7c11;
+}
+
 .msgFeed{
   text-align: left;
   color: #ff7c00;
@@ -76,6 +94,7 @@ body {
 ::selection {
   color: #ffffff;
   background: #ff7c00;
+  
 }
 
 a {
