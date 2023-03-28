@@ -8,13 +8,13 @@
 	  left: 1100px;
 	  top: 0px;
 	  position: relative;
+	  border-radius: 25%;
 	}
 	to {
-	  background-color: #33475b;
+	  background-color: #12197c69;
 	  left:  0px;
 	  position: relative;
 	}
-	paused{}
   }
 @-webkit-keyframes rodaroda2 {
 	0% {
