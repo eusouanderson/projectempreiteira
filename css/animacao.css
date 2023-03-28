@@ -38,30 +38,11 @@
 	-o-animation: rodaroda1 1.5s linear infinite; 	animation: rodaroda1 1.5s linear infinite;
 }
 
-
-@-webkit-keyframes rodaroda2 {
-		0% {
--webkit-transform:rotate(30deg);}
-		50% {
--webkit-transform:rotate(-30deg);}
-		100% {
--webkit-transform:rotate(30deg);}}
-
 .giragira2 {
 	-webkit-animation: rodaroda2 1s linear alternate; 	-moz-animation: rodaroda2 1.5s linear infinite;
 	-o-animation: rodaroda2 1.5s linear infinite; 	animation: rodaroda2 1.5s linear infinite;
-	position: absolute;
-	top: 0; bottom: 0;
-	left: 0; right: 0;
-	margin: auto;
-}
-.rodaroda4mobile{
-	position: absolute;
-	top: 0; bottom: 0;
-	left: 0; right: 0;
-	margin: auto;
-}
 
+}
 
 
 .giragira1:hover {-webkit-animation-play-state:paused;}
